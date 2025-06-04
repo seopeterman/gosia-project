@@ -1,24 +1,43 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
 import Services from './pages/Services';
 import Contact from './pages/Contact';
 import NewsList from './pages/NewsList';
 import NewsSingle from './pages/NewsSingle';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import CookieBanner from './components/CookieBanner';
+import NotFound from './pages/NotFound.jsx';
+import FaqPage from './pages/FaqPage.jsx';
+import PrivacyPolicy from './pages/PrivacyPolicy';
+import CookiesPolicy from './pages/CookiesPolicy';
+import ScrollToTop from './components/ScrollToTop';
+
 
 function App() {
   return (
-    <Router>
+    <div>
+      <Header />
+      <main>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/about-me" element={<About />} />
         <Route path="/services" element={<Services />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/faq" element={<FaqPage />} />
         <Route path="/news" element={<NewsList />} />
-        <Route path="/news/:id" element={<NewsSingle />} />
+        <Route path="/news/:slug" element={<NewsSingle />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/cookies-policy" element={<CookiesPolicy />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
-    </Router>
+      </main>
+      <Footer />
+      <CookieBanner />
+    </div>
   );
 }
 
