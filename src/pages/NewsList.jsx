@@ -117,11 +117,10 @@ const NewsList = () => {
           ))}
         </div>
 
-        {/* Paginacja */}
         {totalPages > 1 && (
           <div className="d-flex justify-content-center mt-4">
             <nav>
-              <ul className="pagination">
+              <ul className="pagination custom-pagination">
                 <li className={`page-item ${currentPage === 1 ? 'disabled' : ''}`}>
                   <button className="page-link" onClick={() => goToPage(currentPage - 1)}>Previous</button>
                 </li>

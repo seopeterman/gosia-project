@@ -227,6 +227,9 @@ footer a, footer p {
   animation-delay: 2s;
 }
 
+.text-primary-contact {
+  color: var(--primary-color)
+}
 
 .hero-img {
   animation: fadeInUp 1s ease forwards;
@@ -239,4 +242,26 @@ footer a, footer p {
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+.custom-pagination {
+  background-color: #00bf63; /* Bootstrap's green */
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+}
+
+.custom-pagination .page-link {
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+
+.custom-pagination .page-item.active .page-link {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.custom-pagination .page-item.disabled .page-link {
+  opacity: 0.5;
+  cursor: not-allowed;
 }
