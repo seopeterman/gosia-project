@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Anna Smith",
+    "title": "Marketing Manager",
+    "review": "Fantastic collaboration! Our SEO results improved significantly within a few weeks.",
+    "image": "/images/reviews/anna.jpg"
+  },
+  {
+    "id": 2,
+    "name": "John Doe",
+    "title": "CEO, TechStartup",
+    "review": "The SEOPETERMAN team is professional, responsive, and delivers results.",
+    "image": "/images/reviews/john.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Emily Johnson",
+    "title": "E-commerce Owner",
+    "review": "Our website traffic increased by 250% thanks to their strategy. Highly recommended!",
+    "image": "/images/reviews/emily.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Michael Lee",
+    "title": "Digital Strategist",
+    "review": "They know SEO inside and out. Transparent reporting and excellent service.",
+    "image": "/images/reviews/michael.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Sophia Brown",
+    "title": "Content Creator",
+    "review": "I’ve worked with several SEO firms — SEOPETERMAN is by far the best.",
+    "image": "/images/reviews/sophia.jpg"
+  },
+  {
+    "id": 6,
+    "name": "David Wilson",
+    "title": "Startup Founder",
+    "review": "They helped us dominate our niche keywords. Amazing team!",
+    "image": "/images/reviews/david.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Olivia Martinez",
+    "title": "Marketing Director",
+    "review": "Their data-driven approach gave us a clear SEO roadmap and fast improvements.",
+    "image": "/images/reviews/olivia.jpg"
+  },
+  {
+    "id": 8,
+    "name": "James Clark",
+    "title": "Business Consultant",
+    "review": "Incredible value. ROI has more than doubled since we started working with them.",
+    "image": "/images/reviews/james.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Isabella Davis",
+    "title": "Freelance Designer",
+    "review": "Their SEO audit was super thorough and easy to understand.",
+    "image": "/images/reviews/isabella.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Daniel Thompson",
+    "title": "eCommerce Manager",
+    "review": "They helped us recover from a Google penalty and regain top rankings.",
+    "image": "/images/reviews/daniel.jpg"
+  }
+]

@@ -14,6 +14,8 @@ import FaqPage from './pages/FaqPage.jsx';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import CookiesPolicy from './pages/CookiesPolicy';
 import ScrollToTop from './components/ScrollToTop';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 
 function App() {
