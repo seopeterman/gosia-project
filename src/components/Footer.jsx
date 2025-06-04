@@ -8,7 +8,7 @@ function Footer() {
         <div className="row">
           <div className="col-md-4 mb-4">
             <img
-              src='/public/images/logo.png'
+              src='/images/logo.png'
               alt="SEO Peterman logo"
               className="img-fluid mb-3"
               style={{ maxHeight: '100px', objectFit: 'contain' }}

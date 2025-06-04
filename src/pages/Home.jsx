@@ -73,7 +73,7 @@ function Home() {
       <ServiceGrid />
       <CardGrid />
       <ParallaxSection 
-        imageSrc="/public/images/parralax.jpg"
+        imageSrc="/images/parralax.jpg"
         imageAlt="SEO Audit"
         text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
       />
@@ -84,14 +84,14 @@ function Home() {
         ctaLink="/contact"
       />
       <ImageLeftText
-        imageSrc="/public/images/gosia-about-us.jpeg"
+        imageSrc="/images/gosia-about-us.jpeg"
         imageAlt="SEO Audit"
         text="<strong>Tailored SEO</strong> services for modern businesses. Let's grow together. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
         backgroundColor="#fff"
         textColor="#000000"
       />
       <ImageRightText 
-        imageSrc="/public/images/gosia-about-us.jpeg"
+        imageSrc="/images/gosia-about-us.jpeg"
         imageAlt="SEO Audit"
         text="<strong>Tailored SEO</strong> services for modern businesses. Let's grow together. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
       />

@@ -25,7 +25,7 @@ function Header() {
       <div className="container">
         <NavLink className="navbar-brand fs-3 fw-bold" to="/" onClick={closeNavbar}>
           <img
-            src='/public/images/logo.png'
+            src='/images/logo.png'
             alt="SEO Peterman logo"
             className="img-fluid"
             style={{ maxHeight: '50px', objectFit: 'contain' }}
