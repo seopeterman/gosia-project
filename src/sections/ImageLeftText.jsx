@@ -1,7 +1,8 @@
 import React from 'react';
 
-function ImageLeftText({ imageSrc, imageAlt, text, full = false, backgroundColor = '#00bf63', textColor }) {
+function ImageLeftText({ imageSrc, imageAlt, text, full = false, backgroundColor, textColor }) {
   const wrapperStyle = backgroundColor ? { backgroundColor } : {};
+  const wrapperClass = !backgroundColor ? 'bg-dark-gosia' : '';
   const textStyle = textColor ? { color: textColor } : {};
 
   const content = (
@@ -16,7 +17,7 @@ function ImageLeftText({ imageSrc, imageAlt, text, full = false, backgroundColor
   );
 
   return (
-    <div style={wrapperStyle}>
+    <div className={wrapperClass} style={wrapperStyle}>
       {full ? content : <div className="container">{content}</div>}
     </div>
   );

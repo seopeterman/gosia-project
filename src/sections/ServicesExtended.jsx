@@ -124,7 +124,7 @@ function ServicesExtended() {
           <motion.section
             key={service.id}
             id={service.id}
-            className={`my-5 p-4 rounded ${service.bg}`}
+            className={`my-5 p-4 rounded bg-dark-small-gosia`}
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}

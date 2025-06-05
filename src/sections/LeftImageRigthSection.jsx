@@ -12,11 +12,16 @@ function LeftImageRigthSection({
   ctaText,
   ctaLink
 }) {
-  const wrapperStyle = {
+ 
+  const wrapperStyle = backgroundColor ? {
     backgroundColor,
     paddingTop: '3rem',
     paddingBottom: '3rem'
+  } : {
+    paddingTop: '3rem',
+    paddingBottom: '3rem'
   };
+  const wrapperClass = !backgroundColor ? 'bg-dark-gosia' : '';
 
   const textStyle = {
     color: textColor
@@ -32,7 +37,7 @@ function LeftImageRigthSection({
           dangerouslySetInnerHTML={{ __html: text }}
         />
         {ctaText && ctaLink && (
-          <Link to={ctaLink} className="btn btn-custom-second mt-3">
+          <Link to={ctaLink} className={`btn ${backgroundColor ? 'btn-custom-second' : 'btn-custom'} mt-3`}>
             <span className='z-1 position-relative'>{ctaText}</span>
           </Link>
         )}
@@ -44,7 +49,7 @@ function LeftImageRigthSection({
   );
 
   return (
-    <div style={wrapperStyle}>
+    <div className={wrapperClass} style={wrapperStyle}>
       {full ? content : <div className="container">{content}</div>}
     </div>
   );

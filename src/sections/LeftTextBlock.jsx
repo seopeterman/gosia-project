@@ -2,7 +2,7 @@ import React from 'react';
 
 function LeftTextBlock({ subtitle, title, text }) {
   return (
-    <section className="position-relative bg-green text-white py-5 px-4 px-lg-5 overflow-hidden">
+    <section className="position-relative bg-dark-gosia text-white py-5 px-4 px-lg-5 overflow-hidden">
       <div className="container">
         <div className="text-start">
           {subtitle && <div className="text-uppercase fw-semibold opacity-75 mb-2" style={{ fontSize: '0.9rem' }}>{subtitle}</div>}

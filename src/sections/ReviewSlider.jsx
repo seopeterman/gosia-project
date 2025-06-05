@@ -15,9 +15,9 @@ const ReviewSlider = () => {
   };
 
   return (
-    <div className='bg-white pb-5'>
+    <div className='bg-dark-gosia pb-5'>
     <div className="container py-5">
-      <h2 className="text-center text-dark mb-5">What my Clients Say</h2>
+      <h2 className="text-center text-white mb-5">What my Clients Say</h2>
       <Slider {...settings}>
         {reviews.map((review) => (
           <div key={review.id}>

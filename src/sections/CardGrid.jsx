@@ -2,15 +2,7 @@ import React, { useState } from 'react';
 import './CardGrid.css'; // za chwilę dam CSS
 
 const colors = [
-  '#3b82f6', // blue
-  '#ef4444', // red
-  '#f59e0b', // yellow
-  '#10b981', // green
-  '#8b5cf6', // purple
-  '#ec4899', // pink
-  '#14b8a6', // teal
-  '#f97316', // orange
-  '#6366f1', // indigo
+  '#ffffff', 
 ];
 
 const cards = [
@@ -33,10 +25,10 @@ function CardGrid() {
   };
 
   return (
-    <section className="py-5 bg-dark-gosia text-light">
+    <section className="py-5 bg-light text-dark">
       <div className="container z-1">
         <div className="row justify-content-center text-center">
-          <h2 className="mb-4">My Cards</h2>
+          <h2 className="mb-4 text-dark">My Cards</h2>
           <p className="pb-5">From meta tags to schema markup, we fine-tune every page for visibility.</p>
         </div>
         <div className="row g-4">
@@ -52,16 +44,16 @@ function CardGrid() {
                   style={{ borderColor: colors[idx % colors.length] }}
                 >
                   <div
-                    className="flip-card-front p-4"
-                    style={{ backgroundColor: colors[idx % colors.length], color: '#fff' }}
+                    className="flip-card-front p-4 bg-dark-small-gosia"
+                    style={{ color: colors[idx % colors.length] }}
                   >
-                    <h5 className="fw-bold">{card.title}</h5>
+                    <h5 className="fw-bold position-relative z-1">{card.title}</h5>
                   </div>
                   <div
-                    className="flip-card-back p-4"
-                    style={{ backgroundColor: '#111', color: colors[idx % colors.length] }}
+                    className="flip-card-back p-4 bg-dark-small-gosia position-absolute"
+                    style={{ color: colors[idx % colors.length] }}
                   >
-                    <p className="small">{card.backText}</p>
+                    <p className="small position-relative z-1">{card.backText}</p>
                   </div>
                 </div>
               </div>

@@ -30,7 +30,7 @@ function Contact() {
         </div>
       </section>
       {/* Partnerships & Pricing */}
-      <section className="bg-green py-5 text-white">
+      <section className="bg-dark-gosia py-5 text-white">
         <div className="container">
           <div className="row gy-5">
             <div className="col-md-6">
@@ -139,7 +139,7 @@ function Contact() {
       </section>
 
       {/* Map Section */}
-      <section className="bg-green text-white py-5">
+      <section className="bg-dark-gosia text-white py-5">
         <div className="container">
           <h4 className="text-white mb-4">Find Me on the Map</h4>
           <div className="ratio ratio-16x9 rounded shadow">
