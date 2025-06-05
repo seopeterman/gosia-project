@@ -438,3 +438,15 @@ footer a, footer p {
 .btn-custom-second:focus:after {
   transform: translateX(120px);
 }
+
+.slick-dots li button:before {
+  font-size: 16px;  /* zmień wartość, jeśli chcesz większe kropki */
+  color: #fff;
+  opacity: 0.75;    /* lekko przezroczyste w stanie normalnym */
+}
+
+/* Aktywna kropka: pełny biały kolor */
+.slick-dots li.slick-active button:before {
+  opacity: 1;
+  color: #fff;
+}
