@@ -36,8 +36,8 @@ function FAQPage() {
           { name: 'FAQ' },
         ]}
       />
-
-      <div className="container my-5">
+      <section className='bg-light py-5'>
+      <div className="container">
         <div className="accordion" id="faqAccordion">
           {faqData.map((item, idx) => {
             const colorClass = bgColors[idx % bgColors.length];
@@ -75,6 +75,7 @@ function FAQPage() {
           })}
         </div>
       </div>
+      </section>
     </>
   );
 }

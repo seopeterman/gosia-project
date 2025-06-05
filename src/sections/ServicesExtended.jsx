@@ -91,11 +91,12 @@ function ServicesExtended() {
       </Helmet>
 
       {/* Summary cards */}
-      <div className="container my-5">
+      <section className='bg-light py-5'>
+      <div className="container">
         <div className="row text-center">
           {services.map((service) => (
             <div key={service.id} className="col-md-6 col-lg-4 mb-4">
-              <div className="p-4 border rounded shadow-sm h-100">
+              <div className="p-4 border rounded shadow-sm h-100 bg-dark-small-gosia">
                 <div className="mb-2">{service.icon}</div>
                 <h5 className="fw-bold">{service.title}</h5>
                 <p>{service.text}</p>
@@ -139,6 +140,7 @@ function ServicesExtended() {
           </motion.section>
         ))}
       </div>
+      </section>
     </div>
   );
 }

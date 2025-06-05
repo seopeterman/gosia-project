@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Services from './pages/Services';
 import Contact from './pages/Contact';
+import ThankYou from './pages/ThankYou';
 import NewsList from './pages/NewsList';
 import NewsSingle from './pages/NewsSingle';
 import Header from './components/Header';
@@ -29,6 +30,7 @@ function App() {
         <Route path="/about-me" element={<About />} />
         <Route path="/services" element={<Services />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/thank-you" element={<ThankYou />} />
         <Route path="/faq" element={<FaqPage />} />
         <Route path="/news" element={<NewsList />} />
         <Route path="/news/:slug" element={<NewsSingle />} />

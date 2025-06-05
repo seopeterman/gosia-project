@@ -33,11 +33,11 @@ const NewsPage = () => {
           { name: article.title }
         ]}
       />
+      <section className='py-5 bg-light'>
+      <div className="container">
+        <div className="mb-4 text-dark">{article.date}</div>
 
-      <div className="container my-5">
-        <div className="mb-4 text-muted">{article.date}</div>
-
-        <div className="ratio ratio-4x3 mb-4">
+        <div className="ratio ratio-4x3 mb-4 text-dark">
           <img
             src={article.image}
             alt={article.title}
@@ -46,8 +46,9 @@ const NewsPage = () => {
           />
         </div>
 
-        <div dangerouslySetInnerHTML={{ __html: article.content }} />
+        <div className="news-text text-dark" dangerouslySetInnerHTML={{ __html: article.content }} />
       </div>
+      </section>
     </>
   );
 };

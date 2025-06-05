@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 function PageHero({ title, backgroundImage, breadcrumbs = [] }) {
   return (
     <section
-      className="d-flex align-items-center page-hero"
+      className="d-flex align-items-center page-hero bg-dark-gosia"
     >
-      <div className="container">
+      <div className="container position-relative z-1">
         <nav aria-label="breadcrumb">
           <ol className="breadcrumb mb-3">
             {breadcrumbs.map((crumb, idx) => (

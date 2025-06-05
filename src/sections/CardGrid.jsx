@@ -33,8 +33,8 @@ function CardGrid() {
   };
 
   return (
-    <section className="py-5 bg-green text-light">
-      <div className="container">
+    <section className="py-5 bg-dark-gosia text-light">
+      <div className="container z-1">
         <div className="row justify-content-center text-center">
           <h2 className="mb-4">My Cards</h2>
           <p className="pb-5">From meta tags to schema markup, we fine-tune every page for visibility.</p>

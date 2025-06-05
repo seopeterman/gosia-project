@@ -32,8 +32,8 @@ function LeftImageRigthSection({
           dangerouslySetInnerHTML={{ __html: text }}
         />
         {ctaText && ctaLink && (
-          <Link to={ctaLink} className="btn btn-custom mt-3">
-            {ctaText}
+          <Link to={ctaLink} className="btn btn-custom-second mt-3">
+            <span className='z-1 position-relative'>{ctaText}</span>
           </Link>
         )}
       </div>

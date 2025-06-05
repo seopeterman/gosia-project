@@ -58,8 +58,8 @@ const NewsList = () => {
           { name: 'News' }
         ]}
       />
-
-      <div className="container py-5">
+      <section className='py-5 bg-light'>
+      <div className="container">
         {/* Wyszukiwanie i sortowanie */}
         <div className="row mb-4 align-items-center">
           <div className="col-md-6 mb-3 mb-md-0">
@@ -95,7 +95,7 @@ const NewsList = () => {
         <div className="row">
           {paginatedNews.map((news) => (
             <div className="col-md-6 col-lg-4 mb-4" key={news.id}>
-              <div className="card h-100 shadow-sm border-0">
+              <div className="card h-100 text-white shadow border-0">
                 <div className="ratio ratio-4x3">
                   <img
                     src={news.image}
@@ -104,11 +104,11 @@ const NewsList = () => {
                     style={{ objectFit: 'cover' }}
                   />
                 </div>
-                <div className="card-body d-flex flex-column">
-                  <small className="text-muted mb-2">{new Date(news.date).toLocaleDateString()}</small>
+                <div className="card-body d-flex flex-column bg-dark-small-gosia">
+                  <small className="text-white mb-2 z-1">{new Date(news.date).toLocaleDateString()}</small>
                   <h5 className="card-title">{news.title}</h5>
                   <p className="card-text flex-grow-1">{news.summary}</p>
-                  <Link to={`/news/${news.slug}`} className="btn btn-outline-primary mt-auto">
+                  <Link to={`/news/${news.slug}`} className="btn btn-custom mt-auto z-1">
                     Read more
                   </Link>
                 </div>
@@ -139,6 +139,7 @@ const NewsList = () => {
           </div>
         )}
       </div>
+      </section>
     </>
   );
 };

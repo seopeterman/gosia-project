@@ -62,10 +62,10 @@ const services = [
 
 function ServicesGrid() {
   return (
-    <section className="py-5 bg-dark text-light">
+    <section className="py-5 bg-light text-dark">
       <div className="container">
         <div className="row justify-content-center text-center mb-5">
-          <h2 className="mb-3" style={{ fontWeight: '700' }}>My Services</h2>
+          <h2 className="mb-3 text-dark" style={{ fontWeight: '700' }}>My Services</h2>
           <p className="pb-2" style={{ maxWidth: 600, margin: '0 auto' }}>
             From meta tags to schema markup, we fine-tune every page for visibility.
           </p>
@@ -74,7 +74,7 @@ function ServicesGrid() {
         <div className="row g-4">
           {services.map((service, idx) => (
             <div className="col-md-6 col-lg-4" key={idx}>
-              <div className="p-4 border rounded shadow-sm h-100">
+              <div className="p-4 border rounded shadow-sm h-100 bg-dark-small-gosia">
                 <div className="mb-2">{service.icon}</div>
                 <h5 className="fw-bold">{service.title}</h5>
                 <p>{service.text}</p>
@@ -87,10 +87,10 @@ function ServicesGrid() {
         <div className="text-center mt-5">
           <Link
             to="/services"
-            className="btn btn-outline-primary px-4 py-2"
+            className="btn btn-custom-second px-4 py-2"
             style={{ fontWeight: '600', fontSize: '1.1rem' }}
           >
-            Read More
+            <span className='z-1 position-relative'>Read More</span>
           </Link>
         </div>
       </div>
