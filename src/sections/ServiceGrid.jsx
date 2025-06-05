@@ -71,7 +71,7 @@ function ServicesGrid() {
           </p>
         </div>
 
-        <div className="row g-4">
+        <div className="row g-4 position-relative z-2">
           {services.map((service, idx) => (
             <div className="col-md-6 col-lg-4" key={idx}>
               <div className="p-4 border rounded shadow-sm h-100 bg-dark-small-gosia">

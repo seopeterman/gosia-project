@@ -7,8 +7,8 @@ function ImageLeftText({ imageSrc, imageAlt, text, full = false, backgroundColor
 
   const content = (
     <div className="row py-5">
-      <div className="col-md-6 d-flex align-items-center px-5">
-        <p style={textStyle} dangerouslySetInnerHTML={{ __html: text }} />
+      <div className="col-md-6 d-flex align-items-center px-5 pseudo-circle">
+        <p className='position-relative z-2'style={textStyle} dangerouslySetInnerHTML={{ __html: text }} />
       </div>
       <div className="col-md-6">
         <img src={imageSrc} className="img-fluid" alt={imageAlt} />

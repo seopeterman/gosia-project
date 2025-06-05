@@ -3,7 +3,7 @@ import React from 'react';
 function BoxedTextBlock({ subtitle, title, text, reverse = false }) {
   // Style tła i tekstu zależny od reverse
   const sectionBg = reverse ? 'bg-dark-gosia' : 'bg-white';
-  const boxBg = reverse ? 'bg-white' : 'bg-dark-gosia';
+  const boxBg = reverse ? 'bg-white pseudo-circle' : 'bg-dark-gosia';
   const boxTextColor = reverse ? 'text-dark' : 'text-white';
   const titleTextColor = reverse ? 'text-dark' : 'text-white';
 

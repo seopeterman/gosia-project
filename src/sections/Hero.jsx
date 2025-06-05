@@ -37,9 +37,9 @@ function Hero({
           {/* Obrazek z animacją rozwijania od góry */}
           <motion.div
             className="col-lg-5 text-center z-1 order-1 order-lg-2"
-            initial={{ y: -250, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            transition={{ duration: 2, ease: 'easeOut' }}
+            initial={{ y: -1250, opacity: 0 }}
+            animate={{ y: 1, opacity: 1 }}
+            transition={{ duration: 2, ease: 'easeIn' }}
           >
             <div className="hero-image-wrapper">
               <div className="image-container">

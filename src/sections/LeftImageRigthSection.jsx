@@ -29,10 +29,10 @@ function LeftImageRigthSection({
 
   const content = (
     <div className="row align-items-center">
-      <div className="col-md-6 mb-4 mb-md-0 px-5 text-col">
-        {title && <h2 className="mb-3 fw-bold" style={textStyle}>{title}</h2>}
+      <div className="col-md-6 mb-4 mb-md-0 px-5 text-col pseudo-circle">
+        {title && <h2 className="mb-3 fw-bold position-relative z-2" style={textStyle}>{title}</h2>}
         <p
-          className="lead"
+          className="lead position-relative z-2"
           style={textStyle}
           dangerouslySetInnerHTML={{ __html: text }}
         />

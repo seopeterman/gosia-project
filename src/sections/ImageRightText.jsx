@@ -10,8 +10,8 @@ function ImageRightText({ imageSrc, imageAlt, text, full = false, backgroundColo
       <div className="col-md-6">
         <img src={imageSrc} className="img-fluid" alt={imageAlt} />
       </div>
-      <div className="col-md-6 d-flex align-items-center px-5 text-col">
-        <p style={textStyle} dangerouslySetInnerHTML={{ __html: text }} />
+      <div className="col-md-6 d-flex align-items-center px-5 pseudo-circle">
+        <p className='position-relative z-2'style={textStyle} dangerouslySetInnerHTML={{ __html: text }} />
       </div>
     </div>
   );

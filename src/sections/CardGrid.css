@@ -2,6 +2,8 @@
   background: transparent;
   perspective: 1000px;
   cursor: pointer;
+  z-index: 2;
+  position: relative;
 }
 
 .flip-card-inner {
