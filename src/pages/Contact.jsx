@@ -61,7 +61,7 @@ function Contact() {
           <FaEnvelope className="text-success me-3 mt-1 fs-5" />
           <div>
             <h6 className="mb-1">Email</h6>
-            <a href="mailto:seo.peterman@gmail.com" className="text-decoration-underline text-dark">seo.peterman@gmail.com</a>
+            <p className="mb-0"><a href="mailto:seo.peterman@gmail.com">seo.peterman@gmail.com</a></p>
           </div>
         </div>
 
@@ -70,7 +70,7 @@ function Contact() {
           <FaPhoneAlt className="text-success me-3 mt-1 fs-5" />
           <div>
             <h6 className="mb-1">Phone</h6>
-            <p className="mb-0">+48 123 456 789</p>
+            <p className="mb-0"><a href="tel:+44123456789">+48 123 456 789</a></p>
           </div>
         </div>
 
