@@ -314,6 +314,7 @@ footer a, footer p {
   background: linear-gradient(135deg, #0f172a, #1e293b);
   position: relative;
   color: #f1f5f9;
+  overflow: hidden;
 }
 
 .bg-dark-gosia:before {
@@ -440,13 +441,17 @@ footer a, footer p {
 }
 
 .slick-dots li button:before {
-  font-size: 16px;  /* zmień wartość, jeśli chcesz większe kropki */
+  font-size: 16px; 
   color: #fff;
-  opacity: 0.75;    /* lekko przezroczyste w stanie normalnym */
+  opacity: 0.75;   
 }
 
-/* Aktywna kropka: pełny biały kolor */
+
 .slick-dots li.slick-active button:before {
   opacity: 1;
   color: #fff;
+}
+
+.flip-card.flipped .flip-card-front h5 {
+    opacity: 0;
 }

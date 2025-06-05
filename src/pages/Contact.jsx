@@ -49,9 +49,9 @@ function Contact() {
         </div>
       </section>
       {/* Get in Touch + Form */}
-      <section className="py-5 bg-white">
+      <section className="py-lg-5 bg-white">
         <div className="container">
-          <div className="row border-0 rounded-3 overflow-hidden shadow-lg">
+          <div className="row border-0 rounded-0 rounded-lg-3 overflow-hidden shadow-lg">
             {/* Contact Info + Socials */}
             <div className="col-lg-4 bg-dark-gosia py-5 px-5">
               <h4 className="mb-4 position-relative z-1">Get in Touch</h4>
