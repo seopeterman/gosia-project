@@ -455,3 +455,47 @@ footer a, footer p {
 .flip-card.flipped .flip-card-front h5 {
     opacity: 0;
 }
+
+.hero-image-wrapper {
+  position: relative;
+}
+
+.hero-image-wrapper .image-container {
+  position: relative;
+  width: fit-content;
+}
+
+.hero-image-wrapper .image-container::before {
+  content: '';
+  background: #38f85e;
+  width: 100%;
+  position: absolute;
+  height: 200%;
+  bottom: 0;
+  left: 0;
+  display: block;
+  z-index: 1;
+  border-bottom-left-radius: 150px;
+  border-bottom-right-radius: 150px;
+  background-image: url('/images/seo-hero-back.png');
+  background-size: contain;
+  background-position: 0px 20px;
+}
+
+.hero-image-wrapper .image-container img {
+  width: 100%;
+  display: block;
+  position: relative;
+  z-index: 10;
+  border-bottom-left-radius: 150px;
+  border-bottom-right-radius: 150px;
+}
+
+@media (max-width: 1024px) {
+  .hero-image-wrapper {
+    display: flex;
+    justify-content: center; /* wyśrodkowanie poziome */
+    align-items: center; 
+    margin-bottom: 40px;
+  }
+}
