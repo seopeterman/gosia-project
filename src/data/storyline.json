@@ -1,0 +1,30 @@
+[
+  {
+    "icon": "FaSearch",
+    "title": "Discovery & Research",
+    "description": "We analyze your site and competition to uncover key opportunities.",
+    "time": "Jan 2024",
+    "image": "/images/storyline-1.jpg"
+  },
+  {
+    "icon": "FaLightbulb",
+    "title": "Strategy Development",
+    "description": "We define your custom SEO roadmap aligned to your business goals.",
+    "time": "Feb 2024",
+    "image": "/images/storyline-2.jpg"
+  },
+  {
+    "icon": "FaTools",
+    "title": "Implementation",
+    "description": "We execute technical and content updates to improve search visibility.",
+    "time": "Mar 2024",
+    "image": "/images/storyline-3.jpg"
+  },
+  {
+    "icon": "FaChartLine",
+    "title": "Monitoring & Optimization",
+    "description": "We track performance and continuously refine the strategy.",
+    "time": "Apr 2024",
+    "image": "/images/storyline-4.jpg"
+  }
+]

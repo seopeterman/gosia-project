@@ -74,9 +74,6 @@ function Footer() {
               <a href="https://linkedin.com" className="text-light fs-5" target="_blank" rel="noopener noreferrer">
                 <FaLinkedinIn />
               </a>
-              <a href="https://twitter.com" className="text-light fs-5" target="_blank" rel="noopener noreferrer">
-                <FaTwitter />
-              </a>
               <a href="https://instagram.com" className="text-light fs-5" target="_blank" rel="noopener noreferrer">
                 <FaInstagram />
               </a>

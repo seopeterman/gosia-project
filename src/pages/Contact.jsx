@@ -23,7 +23,7 @@ function Contact() {
       {/* Let’s Connect */}
       <section className="bg-light py-5">
         <div className="container">
-          <h2 className="text-primary-contact mb-4">Let’s Connect</h2>
+          <h2 className="text-black mb-4">Let’s Connect</h2>
           <p className="fs-5 text-dark">
             Have a project in mind or questions about SEO? I’m here to help! Whether you're looking for a quick consultation or a long-term partnership, feel free to reach out.
           </p>

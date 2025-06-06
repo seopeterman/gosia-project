@@ -4,10 +4,12 @@ import LeftImageRigthSection from '../sections/LeftImageRigthSection';
 import LongTextBlock from '../sections/LongTextBlock';
 import { Helmet } from 'react-helmet-async';
 import LeftTextBlock from '../sections/LeftTextBlock';
+import ShowcaseSection from '../sections/ShowcaseSection';
+import Storyline from '../sections/Storyline';
 
 function About() {
   return (
-    <div className="mt-10">
+    <div className="mt-10 overflow-hidden">
       <Helmet>
         <title>About me | SEOPETERMAN</title>
         <meta
@@ -31,7 +33,20 @@ function About() {
         ]}
       />
       
-
+      <ShowcaseSection 
+        imageSrc="/images/gosia-back-1.png"
+        imageAlt="SEO Audit"
+        sectionOneTitle = "Let’s Talk Results"
+        sectionOneText = "Discover how our strategies help businesses like yours increase visibility, traffic, and conversions. No fluff—just data-backed SEO results."
+        sectionTwoTitle = "Why Work With Me?"
+        sectionTwoText = "I bring strategy, technical expertise, and transparency to every SEO project. No guesswork—only performance and clarity. With over a decade of experience, I’ve helped businesses of all sizes rank higher, attract qualified traffic, and convert visitors into loyal customers. I focus on sustainable growth, white-hat techniques, and detailed reporting so you’re always informed about what’s working. Whether you’re a startup looking to build authority or an established brand aiming to scale, I tailor every solution to your unique goals and challenges."
+      />
+      <Storyline />
+      <LeftTextBlock
+        subtitle="Quick Note"
+        title="Fancy Left-Aligned Block"
+        text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+      />
       <LeftImageRigthSection
         imageSrc="/images/gosia-about-us.jpg"
         imageAlt="About Gosia"
