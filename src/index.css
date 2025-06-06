@@ -273,6 +273,7 @@ footer a, footer p {
   animation: fadeInUp 1s ease forwards;
   opacity: 0;
   transform: translateY(30px);
+  max-height: 55vh;
 }
 
 @keyframes fadeInUp {
@@ -509,6 +510,9 @@ footer a, footer p {
     justify-content: center; /* wyśrodkowanie poziome */
     align-items: center; 
     margin-bottom: 40px;
+  }
+  .hero-img {
+    max-height: 300px;
   }
 }
 

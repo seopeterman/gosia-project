@@ -47,7 +47,7 @@ function Hero({
                   src={imageSrc}
                   alt={imageAlt}
                   className="img-fluid hero-img"
-                  style={{ maxHeight: '55vh', objectFit: 'contain' }}
+                  style={{ objectFit: 'contain' }}
                 />
               </div>
             </div>
