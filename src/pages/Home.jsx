@@ -13,7 +13,7 @@ import CardGrid from '../sections/CardGrid';
 import LeftTextBlock from '../sections/LeftTextBlock';
 import BoxedTextBlock from '../sections/BoxedTextBlock';
 import ReviewSlider from '../sections/ReviewSlider';
-
+import ShowcaseSection from '../sections/ShowcaseSection';
 
 function Home() {
   return (
@@ -103,6 +103,14 @@ function Home() {
         imageSrc="/images/gosia-about-us.jpg"
         imageAlt="SEO Audit"
         text="<strong>Tailored SEO</strong> services for modern businesses. Let's grow together. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+      />
+      <ShowcaseSection 
+        imageSrc="/images/gosia-back-1.png"
+        imageAlt="SEO Audit"
+        sectionOneTitle = "Let’s Talk Results"
+        sectionOneText = "Discover how our strategies help businesses like yours increase visibility, traffic, and conversions. No fluff—just data-backed SEO results."
+        sectionTwoTitle = "Why Work With Me?"
+        sectionTwoText = "I bring strategy, technical expertise, and transparency to every SEO project. No guesswork—only performance and clarity. With over a decade of experience, I’ve helped businesses of all sizes rank higher, attract qualified traffic, and convert visitors into loyal customers. I focus on sustainable growth, white-hat techniques, and detailed reporting so you’re always informed about what’s working. Whether you’re a startup looking to build authority or an established brand aiming to scale, I tailor every solution to your unique goals and challenges."
       />
       <ReviewSlider />
     </div>
