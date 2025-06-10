@@ -30,7 +30,7 @@ function Contact() {
         </div>
       </section>
       {/* Partnerships & Pricing */}
-      <section className="bg-dark-gosia py-5 text-white">
+      <section className="bg-dark-gosia py-5 text-white table-bg-white">
         <div className="container">
           <div className="row gy-5">
             <div className="col-md-6">
@@ -49,7 +49,7 @@ function Contact() {
         </div>
       </section>
       {/* Get in Touch + Form */}
-      <section className="py-lg-5 bg-white">
+      <section className="py-lg-5 bg-white contact-form-block">
         <div className="container">
           <div className="row border-0 rounded-0 rounded-lg-3 overflow-hidden shadow-lg">
             {/* Contact Info + Socials */}

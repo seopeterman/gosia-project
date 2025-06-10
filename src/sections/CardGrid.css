@@ -40,3 +40,29 @@
   transform: rotateY(180deg);
   color: #e5e7eb;
 }
+
+.pulse-icon {
+  color: #ffffff;
+  animation: pulse-icon 2s infinite;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.pulse-icon:hover {
+  transform: scale(1.2);
+}
+
+@keyframes pulse-icon {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import './CardGrid.css'; // za chwilę dam CSS
+import './CardGrid.css';
+import { GiClick } from 'react-icons/gi';
 
 const colors = [
   '#ffffff', 
@@ -48,6 +49,9 @@ function CardGrid() {
                     style={{ color: colors[idx % colors.length] }}
                   >
                     <h5 className="fw-bold position-relative z-1">{card.title}</h5>
+                    <div className="icon-container position-relative z-1 mt-3">
+                      <GiClick className="pulse-icon" size={28} />
+                    </div>
                   </div>
                   <div
                     className="flip-card-back p-4 bg-dark-small-gosia position-absolute"

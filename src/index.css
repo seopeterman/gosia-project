@@ -548,7 +548,7 @@ footer a, footer p {
   right: 0;
 }
 
-.pseudo-circle {
+.pseudo-circle-reverse {
   position: relative;
 }
 
@@ -621,6 +621,20 @@ footer a, footer p {
     right: 0;
     width: 100%;
   }
+
+  .table-bg-white {
+      background: #fff;
+      color: #000 !important;
+  }
+  
+  .table-bg-white h4 {
+    color: #000;
+  }
+  
+  .contact-form-block {
+    padding-top: 40px;
+    border: 1px solid #e1e1e1;
+  }
 }
 
 .timeline-vertical-line {
@@ -649,3 +663,7 @@ footer a, footer p {
     z-index: 1;
 }
 
+
+.accordion-header {
+  z-index: 2;
+}

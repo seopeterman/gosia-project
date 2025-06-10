@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function TextBlock({ title, text, ctaText, ctaLink, backgroundColor, textColor }) {
   const wrapperStyle = backgroundColor ? { backgroundColor } : {};
-  const wrapperClass = !backgroundColor ? 'bg-dark-gosia' : '';
+  const wrapperClass = !backgroundColor ? 'bg-dark-gosia' : 'pseudo-circle';
   const textStyle = textColor ? { color: textColor } : {};
 
   return (
