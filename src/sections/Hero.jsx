@@ -16,7 +16,6 @@ function Hero({
 
       <div className="container pb-5" style={{ minHeight: '65vh' }}>
         <div className="row align-items-center justify-content-between h-100">
-          {/* Tekst z animacją z lewej */}
           <motion.div
             className="col-lg-6 mb-5 mb-lg-0 text-center text-lg-start z-1 order-2 order-lg-1"
             initial={{ x: -200, opacity: 0 }}
@@ -34,7 +33,6 @@ function Hero({
             </a>
           </motion.div>
 
-          {/* Obrazek z animacją rozwijania od góry */}
           <motion.div
             className="col-lg-5 text-center z-1 order-1 order-lg-2"
             initial={{ y: -1250, opacity: 0 }}

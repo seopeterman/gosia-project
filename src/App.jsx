@@ -10,6 +10,7 @@ import NewsSingle from './pages/NewsSingle';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import CookieBanner from './components/CookieBanner';
+import FollowCursor from './components/FollowCursor';
 import NotFound from './pages/NotFound.jsx';
 import FaqPage from './pages/FaqPage.jsx';
 import PrivacyPolicy from './pages/PrivacyPolicy';
@@ -22,6 +23,7 @@ import 'slick-carousel/slick/slick-theme.css';
 function App() {
   return (
     <div>
+      <FollowCursor/>
       <Header />
       <main>
       <ScrollToTop />

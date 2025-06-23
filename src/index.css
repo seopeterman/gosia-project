@@ -490,7 +490,7 @@ footer a, footer p {
   z-index: 1;
   border-bottom-left-radius: 150px;
   border-bottom-right-radius: 150px;
-  background-image: url('/images/seo-hero-back-2.png');
+  background-image: url('/images/test-back.png');
   background-size: contain;
   background-position: 0px 0px;
 }
@@ -666,4 +666,32 @@ footer a, footer p {
 
 .accordion-header {
   z-index: 2;
+}
+
+.custom-cursor {
+    content: '';
+    position: fixed;
+    width: 32px;
+    height: 32px;
+    background: #1600bf;
+    border-radius: 50% 40% 60% 50% / 60% 50% 40% 50%;
+    animation: blobMorph 8s ease-in-out infinite;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: all 0.2s ease;
+    opacity: 0.4;
+    z-index: 9999;
+    top: 0;
+    left: 0px;
+}
+
+.custom-cursor.cursor-custom {
+  width: 60px;
+  height: 60px;
+}
+
+.custom-cursor.cursor-special {
+  width: 60px;
+  height: 60px;
+  background: #00bf63;
 }
